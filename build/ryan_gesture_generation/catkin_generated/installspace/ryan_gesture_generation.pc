@@ -1,0 +1,8 @@
+prefix=/home/josh/catkin_ws_pose_traj_controller/install
+
+Name: ryan_gesture_generation
+Description: Description of ryan_gesture_generation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/josh/catkin_ws_pose_traj_controller/install/lib 
+Requires: 

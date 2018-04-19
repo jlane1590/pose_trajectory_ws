@@ -1,0 +1,8 @@
+prefix=/home/josh/catkin_ws_pose_traj_controller/devel
+
+Name: pose_trajectory_controller
+Description: Description of pose_trajectory_controller
+Version: 0.0.0
+Cflags: -I/home/josh/catkin_ws_pose_traj_controller/devel/include -I/home/josh/catkin_ws_pose_traj_controller/src/pose_trajectory_controller/include
+Libs: -L/home/josh/catkin_ws_pose_traj_controller/devel/lib -lpose_trajectory_controller
+Requires: actionlib pluginlib angles roscpp urdf control_toolbox controller_interface hardware_interface realtime_tools control_msgs trajectory_msgs std_msgs message_runtime

@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/josh/catkin_ws_pose_traj_controller/src/pose_trajectory_controller/msg/EulerPose.msg;/home/josh/catkin_ws_pose_traj_controller/src/pose_trajectory_controller/msg/PoseTrajectoryPoint.msg;/home/josh/catkin_ws_pose_traj_controller/src/pose_trajectory_controller/msg/PoseTrajectory.msg;/home/josh/catkin_ws_pose_traj_controller/src/pose_trajectory_controller/msg/AxisTolerance.msg;/home/josh/catkin_ws_pose_traj_controller/src/pose_trajectory_controller/msg/PoseTrajectoryControllerState.msg;/home/josh/catkin_ws_pose_traj_controller/devel/share/pose_trajectory_controller/msg/FollowPoseTrajectoryAction.msg;/home/josh/catkin_ws_pose_traj_controller/devel/share/pose_trajectory_controller/msg/FollowPoseTrajectoryActionGoal.msg;/home/josh/catkin_ws_pose_traj_controller/devel/share/pose_trajectory_controller/msg/FollowPoseTrajectoryActionResult.msg;/home/josh/catkin_ws_pose_traj_controller/devel/share/pose_trajectory_controller/msg/FollowPoseTrajectoryActionFeedback.msg;/home/josh/catkin_ws_pose_traj_controller/devel/share/pose_trajectory_controller/msg/FollowPoseTrajectoryGoal.msg;/home/josh/catkin_ws_pose_traj_controller/devel/share/pose_trajectory_controller/msg/FollowPoseTrajectoryResult.msg;/home/josh/catkin_ws_pose_traj_controller/devel/share/pose_trajectory_controller/msg/FollowPoseTrajectoryFeedback.msg"
+services_str = "/home/josh/catkin_ws_pose_traj_controller/src/pose_trajectory_controller/srv/QueryTrajectoryState.srv;/home/josh/catkin_ws_pose_traj_controller/src/pose_trajectory_controller/srv/MergeTwoPoseTraj.srv"
+pkg_name = "pose_trajectory_controller"
+dependencies_str = "std_msgs;actionlib_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "pose_trajectory_controller;/home/josh/catkin_ws_pose_traj_controller/src/pose_trajectory_controller/msg;pose_trajectory_controller;/home/josh/catkin_ws_pose_traj_controller/devel/share/pose_trajectory_controller/msg;std_msgs;/opt/ros/kinetic/share/std_msgs/cmake/../msg;actionlib_msgs;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

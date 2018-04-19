@@ -1,0 +1,8 @@
+prefix=/home/josh/catkin_ws_pose_traj_controller/install
+
+Name: pose_trajectory_merger
+Description: Description of pose_trajectory_merger
+Version: 0.1.0
+Cflags: -I/home/josh/catkin_ws_pose_traj_controller/install/include
+Libs: -L/home/josh/catkin_ws_pose_traj_controller/install/lib 
+Requires: 

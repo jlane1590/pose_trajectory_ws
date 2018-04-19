@@ -1,0 +1,2 @@
+set(pose_trajectory_controller_MESSAGE_FILES "msg/EulerPose.msg;msg/PoseTrajectoryPoint.msg;msg/PoseTrajectory.msg;msg/AxisTolerance.msg;msg/PoseTrajectoryControllerState.msg;msg/FollowPoseTrajectoryAction.msg;msg/FollowPoseTrajectoryActionGoal.msg;msg/FollowPoseTrajectoryActionResult.msg;msg/FollowPoseTrajectoryActionFeedback.msg;msg/FollowPoseTrajectoryGoal.msg;msg/FollowPoseTrajectoryResult.msg;msg/FollowPoseTrajectoryFeedback.msg")
+set(pose_trajectory_controller_SERVICE_FILES "srv/QueryTrajectoryState.srv;srv/MergeTwoPoseTraj.srv")

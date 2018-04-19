@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/josh/catkin_ws_pose_traj_controller/devel/setup.sh

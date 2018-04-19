@@ -1,0 +1,2 @@
+pose_trajectory_controller:ryan_gesture_generation
+-G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/josh/catkin_ws_pose_traj_controller/devel -DCMAKE_INSTALL_PREFIX=/home/josh/catkin_ws_pose_traj_controller/install

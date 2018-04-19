@@ -1,0 +1,33 @@
+
+(cl:in-package :asdf)
+
+(defsystem "pose_trajectory_controller-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :actionlib_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "AxisTolerance" :depends-on ("_package_AxisTolerance"))
+    (:file "_package_AxisTolerance" :depends-on ("_package"))
+    (:file "EulerPose" :depends-on ("_package_EulerPose"))
+    (:file "_package_EulerPose" :depends-on ("_package"))
+    (:file "FollowPoseTrajectoryAction" :depends-on ("_package_FollowPoseTrajectoryAction"))
+    (:file "_package_FollowPoseTrajectoryAction" :depends-on ("_package"))
+    (:file "FollowPoseTrajectoryActionFeedback" :depends-on ("_package_FollowPoseTrajectoryActionFeedback"))
+    (:file "_package_FollowPoseTrajectoryActionFeedback" :depends-on ("_package"))
+    (:file "FollowPoseTrajectoryActionGoal" :depends-on ("_package_FollowPoseTrajectoryActionGoal"))
+    (:file "_package_FollowPoseTrajectoryActionGoal" :depends-on ("_package"))
+    (:file "FollowPoseTrajectoryActionResult" :depends-on ("_package_FollowPoseTrajectoryActionResult"))
+    (:file "_package_FollowPoseTrajectoryActionResult" :depends-on ("_package"))
+    (:file "FollowPoseTrajectoryFeedback" :depends-on ("_package_FollowPoseTrajectoryFeedback"))
+    (:file "_package_FollowPoseTrajectoryFeedback" :depends-on ("_package"))
+    (:file "FollowPoseTrajectoryGoal" :depends-on ("_package_FollowPoseTrajectoryGoal"))
+    (:file "_package_FollowPoseTrajectoryGoal" :depends-on ("_package"))
+    (:file "FollowPoseTrajectoryResult" :depends-on ("_package_FollowPoseTrajectoryResult"))
+    (:file "_package_FollowPoseTrajectoryResult" :depends-on ("_package"))
+    (:file "PoseTrajectory" :depends-on ("_package_PoseTrajectory"))
+    (:file "_package_PoseTrajectory" :depends-on ("_package"))
+    (:file "PoseTrajectoryControllerState" :depends-on ("_package_PoseTrajectoryControllerState"))
+    (:file "_package_PoseTrajectoryControllerState" :depends-on ("_package"))
+    (:file "PoseTrajectoryPoint" :depends-on ("_package_PoseTrajectoryPoint"))
+    (:file "_package_PoseTrajectoryPoint" :depends-on ("_package"))
+  ))
